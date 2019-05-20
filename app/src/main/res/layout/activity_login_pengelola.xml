@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.LoginPengelolaActivity"
+    android:padding="@dimen/dp8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:text="LOGIN PENGELOLA"
+            android:textSize="@dimen/text25"
+            android:textColor="@color/colorPrimary"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/ic_supervisor_accent"
+            android:layout_marginTop="40dp"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textSize="@dimen/text16"
+                android:textColor="@color/colorPrimary"
+                style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text16"
+                android:inputType="text"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="@dimen/text16"
+                android:textColor="@color/colorPrimary"
+                style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text16"
+                android:inputType="textPassword"
+                android:textColor="@color/colorPrimary"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Login"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

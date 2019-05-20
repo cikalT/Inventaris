@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.admin.FormAddInventActivity"
+    android:padding="@dimen/dp8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Nama Invent"
+                android:textSize="@dimen/text16"/>
+
+            <EditText
+                android:id="@+id/edtNamaInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:maxLines="1"
+                tools:text="Nama Invent"
+                android:inputType="textCapCharacters"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Kondisi Invent"
+                android:textSize="@dimen/text16"/>
+
+            <Spinner
+                android:id="@+id/spnKondisiInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:entries="@array/kondisiInvet"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Kondisi Invent"
+                android:textSize="@dimen/text16"/>
+
+            <Spinner
+                android:id="@+id/spnKetInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:entries="@array/ketInvent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Jumlah Invent"
+                android:textSize="@dimen/text16"/>
+
+            <EditText
+                android:id="@+id/edtJumlahInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:maxLines="1"
+                tools:text="Jumlah Invent"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Jenis Invent"
+                android:textSize="@dimen/text16"/>
+
+            <Spinner
+                android:id="@+id/spnJenisInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Ruang Invent"
+                android:textSize="@dimen/text16"/>
+
+            <Spinner
+                android:id="@+id/spnRuangInvent"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp16"
+            android:text=" Tambah Inventaris "
+            android:textSize="@dimen/text16"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

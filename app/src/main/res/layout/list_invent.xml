@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="@dimen/dp8">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="@dimen/dp8"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtNamaInvent"
+                        android:layout_width="140dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        tools:text="Nama Barang"
+                        android:textColor="@color/colorPrimaryDark"/>
+
+                    <TextView
+                        android:id="@+id/txtJumlahInvent"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text18"
+                        tools:text="59"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginStart="20dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text18"
+                        android:text="Buah"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginStart="5dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:id="@+id/txtKondisiInvent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text16"
+                        android:textColor="@color/colorBlack"
+                        tools:text="Kurang Baik"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="-"
+                        android:paddingLeft="@dimen/dp8"
+                        android:paddingRight="@dimen/dp8"/>
+
+                    <TextView
+                        android:id="@+id/txtKetInvent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text16"
+                        android:textColor="@color/colorBlack"
+                        tools:text="Barang Habis Pakai"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/dp8"
+                android:layout_marginBottom="15dp">
+
+                <ImageView
+                    android:id="@+id/imgDetailInvent"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_send_primary"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

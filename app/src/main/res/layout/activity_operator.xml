@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.operator.OperatorActivity"
+    android:padding="@dimen/dp8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/llList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgPendaftaran"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ic_assignment_ind_accent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/dp8"
+                android:textSize="@dimen/text16"
+                android:text="Pendaftaran Pegawai"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llOperator"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@+id/llList"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgPeminjaman"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_assignment_accent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:textSize="@dimen/text16"
+                    android:text="Peminjaman"
+                    android:textColor="@color/colorPrimaryDark"
+                    style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgPengembalian"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_assignment_return_accent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/dp8"
+                    android:textSize="@dimen/text16"
+                    android:text="Pengembalian"
+                    android:textColor="@color/colorPrimaryDark"
+                    style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/llOperator"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="center_horizontal"
+            android:text="LogOut"
+            android:textSize="@dimen/text16"
+            android:background="@color/colorRed"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailPegawaiActivity"
+    android:paddingStart="@dimen/dp8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Nama Pegawai"
+                android:textSize="@dimen/text16"/>
+
+            <EditText
+                android:id="@+id/edtNamaPegawai"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:maxLines="1"
+                tools:text="Nama Pegawai"
+                android:inputType="textCapWords"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Nip Pegawai"
+                android:textSize="@dimen/text16"/>
+
+            <EditText
+                android:id="@+id/edtNipPegawai"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textSize="@dimen/text16"
+                android:enabled="true"
+                tools:text="Nip Pegawai" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Alamat Pegawai"
+                android:textSize="@dimen/text16"/>
+
+            <EditText
+                android:id="@+id/edtAlamatPegawai"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:maxLines="1"
+                tools:text="Alamat Pegawai"
+                android:inputType="textCapWords"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp8">
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Username"
+                android:textSize="@dimen/text16"/>
+
+            <EditText
+                android:id="@+id/edtUsername"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/text16"
+                android:maxLines="1"
+                tools:text="Username"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp16">
+
+            <Button
+                android:id="@+id/btnHapus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hapus"
+                android:textSize="@dimen/text18"/>
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:textSize="@dimen/text18"
+                android:layout_marginStart="150dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

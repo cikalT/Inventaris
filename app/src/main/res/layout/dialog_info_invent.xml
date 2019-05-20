@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:padding="@dimen/dp8"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtNamaInvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Nama Inventaris"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Kondisi Inventaris"
+            android:textSize="@dimen/text18"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/txtKondisiInvent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text18"
+            android:maxLines="1"
+            tools:text="Kondisi Inventaris"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Ket Inventaris"
+            android:textSize="@dimen/text18"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/txtKetInvent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text18"
+            android:maxLines="1"
+            tools:text="Ket Inventaris"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Jenis Inventaris"
+            android:textSize="@dimen/text18"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/txtJenisInvent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text18"
+            android:maxLines="1"
+            tools:text="Jenis Inventaris"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Ruang Inventaris"
+            android:textSize="@dimen/text18"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/txtRuangInvent"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text18"
+            android:maxLines="1"
+            tools:text="Ruang Inventaris"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Inventaris</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="kondisi1">Baru</string>
+    <string name="kondisi2">Baik</string>
+    <string name="kondisi3">Kurang Baik</string>
+
+    <string name="ket1">Barang Inventaris</string>
+    <string name="ket2">Barang Habis Pinjam</string>
+
+    <array name="kondisiInvet">
+        <item>Baru</item>
+        <item>Baik</item>
+        <item>Kurang Baik</item>
+    </array>
+
+    <array name="ketInvent">
+        <item>Barang Inventaris</item>
+        <item>Barang Habis Pinjam</item>
+    </array>
+
+</resources>

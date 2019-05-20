@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:padding="@dimen/dp8"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTglReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Tanggal"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Total Dipinjam"
+            android:textSize="@dimen/text18"
+            android:textColor="@color/colorWhite"
+            android:layout_marginStart="@dimen/dp8"/>
+
+        <TextView
+            android:id="@+id/txtTotal"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text18"
+            tools:text="10"
+            android:textColor="@color/colorWhite"
+            style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Masih Dipinjam"
+            android:textSize="@dimen/text18"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="@dimen/dp8"/>
+
+        <TextView
+            android:id="@+id/txtPinjam"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text18"
+            tools:text="10"
+            android:textColor="@color/colorPrimaryDark"
+            style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Sudah Dikembalikan"
+            android:textSize="@dimen/text18"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="@dimen/dp8"/>
+
+        <TextView
+            android:id="@+id/txtKembali"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text18"
+            tools:text="10"
+            android:textColor="@color/colorPrimaryDark"
+            style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp8">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Terlambat Mengembalikan"
+            android:textSize="@dimen/text18"
+            android:textColor="@color/colorBlack"
+            android:layout_marginStart="@dimen/dp8"/>
+
+        <TextView
+            android:id="@+id/txtTerlambat"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text18"
+            tools:text="10"
+            android:textColor="@color/colorPrimaryDark"
+            style="@style/Base.TextAppearance.AppCompat.Title"/>
+
+    </LinearLayout>
+
+</LinearLayout>
