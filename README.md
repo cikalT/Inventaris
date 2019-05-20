@@ -1,0 +1,3 @@
+# Inventaris
+
+Inventaris Sekolah
