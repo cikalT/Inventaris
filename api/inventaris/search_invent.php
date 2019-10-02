@@ -1,5 +1,5 @@
 <?php
-
+// script untuk mencari inventaris berdasarkan nama inventaris dan dikirim dalam bentuk json
 require_once 'koneksi.php';
 
 $nama = $_GET['nama'];
