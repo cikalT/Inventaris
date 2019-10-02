@@ -1,5 +1,5 @@
 <?php
-
+// script untuk mencari petugas berdasarkan nama petugas dan dikirim dalam bentuk json
 require_once 'koneksi.php';
 
 $nama = $_GET['nama'];
